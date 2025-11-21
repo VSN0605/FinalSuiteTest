@@ -1,0 +1,382 @@
+Wed Nov 19 04:31:10 2025 [17052][1][SECURITY] OutboundEmail::checkSavePermissions - not logged in - skipping check
+Wed Nov 19 04:31:10 2025 [17052][1][FATAL] User update error: Temp User is not retrieved at ID 1, boolean given
+Wed Nov 19 04:31:10 2025 [17052][1][FATAL] Email address save error
+Wed Nov 19 04:31:29 2025 [17052][1][FATAL] User update error: Temp User is not retrieved at ID seed_jim_id, boolean given
+Wed Nov 19 04:31:30 2025 [17052][1][FATAL] Email address save error
+Wed Nov 19 04:31:30 2025 [17052][1][FATAL] User update error: Temp User is not retrieved at ID seed_sarah_id, boolean given
+Wed Nov 19 04:31:30 2025 [17052][1][FATAL] Email address save error
+Wed Nov 19 04:31:30 2025 [17052][1][FATAL] User update error: Temp User is not retrieved at ID seed_sally_id, boolean given
+Wed Nov 19 04:31:30 2025 [17052][1][FATAL] Email address save error
+Wed Nov 19 04:31:30 2025 [17052][1][FATAL] User update error: Temp User is not retrieved at ID seed_max_id, boolean given
+Wed Nov 19 04:31:31 2025 [17052][1][FATAL] Email address save error
+Wed Nov 19 04:31:31 2025 [17052][1][FATAL] User update error: Temp User is not retrieved at ID seed_will_id, boolean given
+Wed Nov 19 04:31:31 2025 [17052][1][FATAL] Email address save error
+Wed Nov 19 04:31:31 2025 [17052][1][FATAL] User update error: Temp User is not retrieved at ID seed_chris_id, boolean given
+Wed Nov 19 04:31:31 2025 [17052][1][FATAL] Email address save error
+Wed Nov 19 04:34:02 2025 [17052][1][SECURITY] Invalid ext  logger_file_ext : ''.
+Wed Nov 19 04:34:02 2025 [17052][1][SECURITY] Setting logger_file_ext to '.log'.
+Wed Nov 19 04:34:02 2025 [17052][1][SECURITY] Setting logger_file_name to ''.
+Wed Nov 19 04:34:02 2025 [17052][1][SECURITY] Log file extension can't be blank.
+Wed Nov 19 04:34:02 2025 [17052][1][SECURITY] Setting logger_file_name to ''.
+Wed Nov 19 04:34:02 2025 [17052][1][SECURITY] Log file extension can't be blank.
+Wed Nov 19 05:03:24 2025 [17052][1][FATAL] Scheduler got both a job_url and job_function
+Wed Nov 19 05:12:38 2025 [25920][1][FATAL] Daily account summary scheduler run
+Wed Nov 19 05:12:38 2025 [25920][1][FATAL] Daily account summary scheduler end
+Wed Nov 19 05:52:11 2025 [17052][1][FATAL] Email address save error
+Wed Nov 19 05:52:32 2025 [17504][1][FATAL] Daily account summary scheduler run
+Wed Nov 19 05:52:32 2025 [17504][1][FATAL] Daily account summary scheduler end
+Wed Nov 19 05:52:32 2025 [17504][1][FATAL] Total Leads created by today is greater than 5 : 200
+Wed Nov 19 05:52:32 2025 [17504][1][FATAL] ========= sendDailyReportJob End ==========
+Wed Nov 19 06:50:59 2025 [17052][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Wed Nov 19 06:50:59 2025 [17052][1][FATAL] Exception in Controller: Unable to load template 'file:custom/themes/SuiteP/tpls/_headerModuleList.tpl' in 'custom/themes/SuiteP/tpls/header.tpl'
+Wed Nov 19 06:51:05 2025 [17052][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Wed Nov 19 06:51:05 2025 [17052][1][FATAL] Exception in Controller: Unable to load template 'file:custom/themes/SuiteP/tpls/_headerModuleList.tpl' in 'custom/themes/SuiteP/tpls/header.tpl'
+Wed Nov 19 06:51:09 2025 [17052][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Wed Nov 19 06:51:09 2025 [17052][1][FATAL] Exception in Controller: Unable to load template 'file:custom/themes/SuiteP/tpls/_headerModuleList.tpl' in 'custom/themes/SuiteP/tpls/header.tpl'
+Wed Nov 19 06:51:10 2025 [17052][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Wed Nov 19 06:51:10 2025 [17052][1][FATAL] Exception in Controller: Unable to load template 'file:custom/themes/SuiteP/tpls/_headerModuleList.tpl' in 'custom/themes/SuiteP/tpls/header.tpl'
+Wed Nov 19 06:51:15 2025 [17052][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Wed Nov 19 06:51:15 2025 [17052][1][FATAL] Exception in Controller: Unable to load template 'file:custom/themes/SuiteP/tpls/_headerModuleList.tpl' in 'custom/themes/SuiteP/tpls/header.tpl'
+Wed Nov 19 06:51:24 2025 [17052][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Wed Nov 19 06:51:24 2025 [17052][1][FATAL] Exception in Controller: Unable to load template 'file:custom/themes/SuiteP/tpls/_headerModuleList.tpl' in 'custom/themes/SuiteP/tpls/header.tpl'
+Wed Nov 19 06:51:36 2025 [17052][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Wed Nov 19 06:51:36 2025 [17052][1][FATAL] Exception in Controller: Unable to load template 'file:custom/themes/SuiteP/tpls/_headerModuleList.tpl' in 'custom/themes/SuiteP/tpls/header.tpl'
+Wed Nov 19 07:52:02 2025 [17052][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Wed Nov 19 07:52:02 2025 [17052][1][FATAL] Exception in Controller: There is no action by that name: HelloWorld
+Wed Nov 19 07:52:19 2025 [17052][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Wed Nov 19 07:52:19 2025 [17052][1][FATAL] Exception in Controller: There is no action by that name: HelloWorld
+Wed Nov 19 11:31:49 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Wed Nov 19 11:31:49 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Wed Nov 19 11:33:15 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Wed Nov 19 11:33:15 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Wed Nov 19 11:33:55 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Wed Nov 19 11:33:55 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Wed Nov 19 11:33:57 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Wed Nov 19 11:33:57 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Wed Nov 19 11:34:28 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Wed Nov 19 11:34:28 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Wed Nov 19 13:27:54 2025 [7228][1][FATAL] workflow running . 1
+Wed Nov 19 13:27:54 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:27:55 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:27:56 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:27:56 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:27:57 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:27:57 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:27:58 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:27:59 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:27:59 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:28:00 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:31:35 2025 [7228][1][FATAL] workflow running . 1
+Wed Nov 19 13:31:36 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:31:36 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:31:37 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:31:38 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:31:39 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:31:40 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:31:40 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:31:41 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:31:42 2025 [7228][1][FATAL] workflow running . 
+Wed Nov 19 13:31:43 2025 [7228][1][FATAL] workflow running . 
+Thu Nov 20 04:21:55 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 8cc3cd20-435f-aae2-ff05-691e978a90be
+Thu Nov 20 04:21:56 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 8cc3cd20-435f-aae2-ff05-691e978a90be
+Thu Nov 20 04:21:56 2025 [7228][1][FATAL] Follow-up date already set, skipping.
+Thu Nov 20 04:21:56 2025 [7228][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 04:24:01 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: e785812f-5411-33ca-f3b7-691e97da94a0
+Thu Nov 20 04:24:01 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: e785812f-5411-33ca-f3b7-691e97da94a0
+Thu Nov 20 04:24:01 2025 [7228][1][FATAL] Follow-up date already set, skipping.
+Thu Nov 20 04:24:01 2025 [7228][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 04:29:51 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 2b2f3bb8-e2de-3420-45d5-691e99ea4aea
+Thu Nov 20 04:29:51 2025 [7228][1][FATAL] Action already in progress. Stopping duplicate.
+Thu Nov 20 04:29:51 2025 [7228][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 04:32:29 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: c8c7282c-dae1-e559-1a74-691e99a25dcb
+Thu Nov 20 04:32:29 2025 [7228][1][FATAL] Follow-up date already set, skipping.
+Thu Nov 20 04:32:29 2025 [7228][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 04:36:24 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 7d05c9c3-99f9-a58f-d6de-691e9a6a73d6
+Thu Nov 20 04:36:25 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 7d05c9c3-99f9-a58f-d6de-691e9a6a73d6
+Thu Nov 20 04:36:25 2025 [7228][1][FATAL] Follow-up date already set, skipping.
+Thu Nov 20 04:36:25 2025 [7228][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:10:10 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Thu Nov 20 05:10:10 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Thu Nov 20 05:10:32 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Thu Nov 20 05:10:32 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Thu Nov 20 05:10:52 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Thu Nov 20 05:10:52 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Thu Nov 20 05:13:50 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Thu Nov 20 05:13:50 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Thu Nov 20 05:46:00 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: a45e0d72-9fee-9ea0-023f-691d488a9de7
+Thu Nov 20 05:46:03 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:03 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 5722bef9-07fc-6039-1927-691d484c178a
+Thu Nov 20 05:46:03 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:03 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 82b5a21c-a0ed-0b55-67fd-691d48753bb2
+Thu Nov 20 05:46:04 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:04 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: ab07a281-94f9-bf24-af29-691d48c68474
+Thu Nov 20 05:46:05 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:05 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: d300b8ad-1628-49b1-2b8a-691d48ab41d8
+Thu Nov 20 05:46:07 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:07 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 871b0db5-c945-6807-6d99-691d488c471f
+Thu Nov 20 05:46:08 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:08 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 3166bdff-d2c7-326f-cc40-691d484b81f0
+Thu Nov 20 05:46:09 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:09 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: ab267b90-fd74-81b7-edc4-691d4850a9df
+Thu Nov 20 05:46:10 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:11 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 3151b757-4113-a12b-f905-691d48bb6d30
+Thu Nov 20 05:46:12 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:12 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: d2d79b79-8a36-7db1-6970-691d48b0770c
+Thu Nov 20 05:46:13 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:13 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: a8f0b54f-b9d0-2a13-d836-691d48f126ad
+Thu Nov 20 05:46:15 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:15 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: d0421559-a4fc-cfb8-7236-691d4824776c
+Thu Nov 20 05:46:16 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:16 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 7efb50d9-b295-4025-be92-691d485df7d4
+Thu Nov 20 05:46:18 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:18 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 2f5cb48d-ddab-ef67-f85d-691d48e314bb
+Thu Nov 20 05:46:19 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:19 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 57d7cdcd-29f9-52ee-1606-691d480cc21d
+Thu Nov 20 05:46:21 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:21 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: b0a9e804-365f-a095-0608-691d48c5a0a0
+Thu Nov 20 05:46:22 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:22 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: e22c029f-80a2-26cc-2d43-691d48e92e98
+Thu Nov 20 05:46:24 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:24 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 5f505c3c-5e52-8a9d-5e9a-691d486e00e8
+Thu Nov 20 05:46:26 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:26 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 126529f3-33d0-db2b-000f-691d48762e83
+Thu Nov 20 05:46:28 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:28 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: b6e7a212-a5cb-527d-cd9b-691d48fa105f
+Thu Nov 20 05:46:29 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:30 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 3e015a5f-0805-a958-be58-691d48ae965a
+Thu Nov 20 05:46:31 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:31 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 8f2f67a0-1400-1537-5ea9-691d48938954
+Thu Nov 20 05:46:33 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:33 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 41a12181-99f9-78d2-08bb-691d48739576
+Thu Nov 20 05:46:34 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:34 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 192215f4-a968-b441-8838-691d48806178
+Thu Nov 20 05:46:36 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:36 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 1c4803dc-9f9a-b4f2-024f-691d48cdff02
+Thu Nov 20 05:46:37 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:37 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 45f1621b-2ff5-6cf1-ff73-691d4803a00e
+Thu Nov 20 05:46:38 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:38 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 6fc25eef-4bd6-e230-dcbf-691d48b2d3e3
+Thu Nov 20 05:46:40 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:40 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: eb7ef5bc-f980-695f-5005-691d4832bcdf
+Thu Nov 20 05:46:41 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:41 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 47e61a05-98f6-4182-f952-691d487b7c50
+Thu Nov 20 05:46:43 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:43 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: eb8daec4-b95e-b5e8-6c82-691d485ebace
+Thu Nov 20 05:46:45 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:45 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 226e88d5-1e19-2ce0-80bc-691d48228fa3
+Thu Nov 20 05:46:49 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:49 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 4c8316ad-c57d-d12c-50f2-691d4878dc75
+Thu Nov 20 05:46:50 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:50 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 7578d99f-71b2-548c-8a67-691d48c9e443
+Thu Nov 20 05:46:50 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:50 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 251356ca-6b15-fa61-9703-691d48b7ae1a
+Thu Nov 20 05:46:50 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:50 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 4e5967ae-8a5c-e34d-a3ed-691d4854a43c
+Thu Nov 20 05:46:51 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:51 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 27467046-1308-17b3-1025-691d48fbdf5d
+Thu Nov 20 05:46:51 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:51 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 539f5dca-7723-c89d-7fca-691d48514f72
+Thu Nov 20 05:46:52 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:52 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: a5e98eaf-daf4-f858-98c0-691d48411b50
+Thu Nov 20 05:46:52 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:52 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: ceee94b1-7c34-09b1-115f-691d4835e580
+Thu Nov 20 05:46:52 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:53 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 2cbc4808-27d8-5098-17e9-691d48a808ba
+Thu Nov 20 05:46:53 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:53 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: a6428772-bfdc-30e9-1835-691d48664462
+Thu Nov 20 05:46:53 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:53 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 55a6b750-2ab0-8377-7b17-691d48fc5fde
+Thu Nov 20 05:46:54 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:54 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 4bd306be-1216-b55d-6c24-691d48c9e346
+Thu Nov 20 05:46:54 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:54 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 2e937985-b4ed-afcf-c501-691d48da54f3
+Thu Nov 20 05:46:54 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:54 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: aa521945-1655-e461-4086-691d48f9c7ea
+Thu Nov 20 05:46:55 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:55 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: ab979abd-6981-9541-293f-691d489e0b59
+Thu Nov 20 05:46:55 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:56 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: d53be5a0-16cb-6f38-cd4c-691d482def9d
+Thu Nov 20 05:46:56 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:56 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: a0f20f77-863d-5e56-118e-691d480fd471
+Thu Nov 20 05:46:57 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:57 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: cae80971-c7dd-79ec-f4aa-691d48538efc
+Thu Nov 20 05:46:57 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:57 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 3525a862-c1b4-7ee9-a711-691d48da6b54
+Thu Nov 20 05:46:58 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:58 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 62f8455b-b2bc-7baf-8adf-691d4876657a
+Thu Nov 20 05:46:58 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:46:58 2025 [6420][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 8bc7e602-01a8-998d-c1d2-691d48ba20dc
+Thu Nov 20 05:46:59 2025 [6420][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 05:48:41 2025 [22884][1][FATAL] Daily account summary scheduler run at 2025-11-20 05:4841
+Thu Nov 20 05:48:41 2025 [22884][1][FATAL] Daily account summary scheduler end
+Thu Nov 20 05:48:41 2025 [22884][1][FATAL] ========= Leads Created Today  ==========
+Thu Nov 20 05:48:41 2025 [22884][1][FATAL] Total Leads created by today is less than 5 : 3
+Thu Nov 20 05:48:41 2025 [22884][1][FATAL] ========= Leads Created Today ==========
+Thu Nov 20 06:44:02 2025 [24832][1][FATAL] Daily account summary scheduler run at 2025-11-20 06:4402
+Thu Nov 20 06:44:02 2025 [24832][1][FATAL] Daily account summary scheduler end
+Thu Nov 20 06:44:02 2025 [24832][1][FATAL] ========= Leads Created Today  ==========
+Thu Nov 20 06:44:02 2025 [24832][1][FATAL] Total Leads created by today is less than 5 : 3
+Thu Nov 20 06:44:02 2025 [24832][1][FATAL] ========= Leads Created Today ==========
+Thu Nov 20 06:46:30 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 3990be50-78db-3a14-ed54-691eb96481b8
+Thu Nov 20 06:46:30 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 3990be50-78db-3a14-ed54-691eb96481b8
+Thu Nov 20 06:46:30 2025 [7228][1][FATAL] Follow-up date already set, skipping.
+Thu Nov 20 06:46:30 2025 [7228][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 06:46:45 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 64d28ca5-905a-969a-4695-691eb9d7fc44
+Thu Nov 20 06:46:45 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 64d28ca5-905a-969a-4695-691eb9d7fc44
+Thu Nov 20 06:46:45 2025 [7228][1][FATAL] Follow-up date already set, skipping.
+Thu Nov 20 06:46:45 2025 [7228][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 06:46:55 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 37d31e68-bd11-1289-22a2-691eb964a68d
+Thu Nov 20 06:46:56 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 37d31e68-bd11-1289-22a2-691eb964a68d
+Thu Nov 20 06:46:56 2025 [7228][1][FATAL] Follow-up date already set, skipping.
+Thu Nov 20 06:46:56 2025 [7228][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 06:47:13 2025 [21108][1][FATAL] Daily account summary scheduler run at 2025-11-20 06:4713
+Thu Nov 20 06:47:13 2025 [21108][1][FATAL] Daily account summary scheduler end
+Thu Nov 20 06:47:13 2025 [21108][1][FATAL] ========= Leads Created Today  ==========
+Thu Nov 20 06:47:13 2025 [21108][1][FATAL] Total Leads created by today is greater than 5 : 6
+Thu Nov 20 06:47:13 2025 [21108][1][FATAL] ========= Leads Created Today ==========
+Thu Nov 20 06:56:59 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 461706e1-6ccf-d365-4b63-691ebb51a457
+Thu Nov 20 06:56:59 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 461706e1-6ccf-d365-4b63-691ebb51a457
+Thu Nov 20 06:56:59 2025 [7228][1][FATAL] Follow-up date already set, skipping.
+Thu Nov 20 06:56:59 2025 [7228][1][FATAL] Follow-up date updated successfully: 2025-11-23
+Thu Nov 20 07:03:52 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Thu Nov 20 07:03:52 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: custom_rest_test
+Thu Nov 20 08:57:36 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: b0b3579d-429c-ba15-c37a-691ed8aa0131
+Thu Nov 20 08:57:36 2025 [7228][1][FATAL] Mysqli_query failed.
+Thu Nov 20 08:57:36 2025 [7228][1][FATAL]  Query Failed: INSERT INTO leads_cstm (id_c ,followup_date_c ,jjwg_maps_lat_c ,jjwg_maps_lng_c ) VALUES ('b0b3579d-429c-ba15-c37a-691ed8aa0131' ,NULL ,0 ,0 ): MySQL error 1062: Duplicate entry 'b0b3579d-429c-ba15-c37a-691ed8aa0131' for key 'leads_cstm.PRIMARY'
+Thu Nov 20 08:57:36 2025 [7228][1][FATAL] Mysqli_query failed.
+Thu Nov 20 08:57:36 2025 [7228][1][FATAL] Error inserting into table: leads: Query Failed: INSERT INTO leads (id,date_entered,date_modified,modified_user_id,created_by,description,deleted,assigned_user_id,salutation,first_name,last_name,title,department,do_not_call,phone_mobile,phone_work,phone_fax,primary_address_street,primary_address_city,primary_address_state,primary_address_postalcode,primary_address_country,alt_address_street,alt_address_city,alt_address_state,alt_address_postalcode,alt_address_country,converted,refered_by,lead_source,lead_source_description,status,status_description,account_name,contact_id,account_id,opportunity_id,opportunity_amount,campaign_id,website)
+					VALUES ('b0b3579d-429c-ba15-c37a-691ed8aa0131','2025-11-20 08:57:36','2025-11-20 08:57:36','1','1','',0,'1','Mr.','','XYZ','','',0,'','','','','','','','','','','','','',0,'','','','New','','','','','','','','http://'): MySQL error 1062: Duplicate entry 'b0b3579d-429c-ba15-c37a-691ed8aa0131' for key 'leads.PRIMARY'
+Thu Nov 20 08:57:36 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Thu Nov 20 08:57:36 2025 [7228][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Thu Nov 20 10:35:08 2025 [7228][1][FATAL] API Exception detected:
+Message was: The option "max_num" does not exist. Defined options are: "fields", "filter", "moduleName", "page", "sort".
+Exception details:
+
+Code:0
+C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\symfony\options-resolver\OptionsResolver.php:899
+Trace:
+#0 C:\wamp64\www\crm_folder\suiteCRM_finalTest\Api\V8\Param\BaseParam.php(47): Symfony\Component\OptionsResolver\OptionsResolver->resolve(Array)
+#1 C:\wamp64\www\crm_folder\suiteCRM_finalTest\Api\V8\Middleware\ParamsMiddleware.php(48): Api\V8\Param\BaseParam->configure(Array)
+#2 C:\wamp64\www\crm_folder\suiteCRM_finalTest\Api\V8\Factory\ParamsMiddlewareFactory.php(38): Api\V8\Middleware\ParamsMiddleware->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\Route))
+#3 [internal function]: Api\V8\Factory\ParamsMiddlewareFactory->Api\V8\Factory\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\Route))
+#4 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\DeferredCallable.php(57): call_user_func_array(Object(Closure), Array)
+#5 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\Route))
+#6 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\MiddlewareAwareTrait.php(70): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\Route))
+#7 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\league\oauth2-server\src\Middleware\ResourceServerMiddleware.php(54): Slim\Route->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 [internal function]: League\OAuth2\Server\Middleware\ResourceServerMiddleware->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Closure))
+#9 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\DeferredCallable.php(57): call_user_func_array(Object(League\OAuth2\Server\Middleware\ResourceServerMiddleware), Array)
+#10 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Closure))
+#11 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\MiddlewareAwareTrait.php(70): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Closure))
+#12 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\MiddlewareAwareTrait.php(117): Slim\Route->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#15 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#16 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#17 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#18 C:\wamp64\www\crm_folder\suiteCRM_finalTest\Api\index.php(4): Slim\App->run()
+#19 {main}
+
+Thu Nov 20 10:38:35 2025 [7228][1][FATAL] API Exception detected:
+Message was: The option "max_num" does not exist. Defined options are: "fields", "filter", "moduleName", "page", "sort".
+Exception details:
+
+Code:0
+C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\symfony\options-resolver\OptionsResolver.php:899
+Trace:
+#0 C:\wamp64\www\crm_folder\suiteCRM_finalTest\Api\V8\Param\BaseParam.php(47): Symfony\Component\OptionsResolver\OptionsResolver->resolve(Array)
+#1 C:\wamp64\www\crm_folder\suiteCRM_finalTest\Api\V8\Middleware\ParamsMiddleware.php(48): Api\V8\Param\BaseParam->configure(Array)
+#2 C:\wamp64\www\crm_folder\suiteCRM_finalTest\Api\V8\Factory\ParamsMiddlewareFactory.php(38): Api\V8\Middleware\ParamsMiddleware->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\Route))
+#3 [internal function]: Api\V8\Factory\ParamsMiddlewareFactory->Api\V8\Factory\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\Route))
+#4 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\DeferredCallable.php(57): call_user_func_array(Object(Closure), Array)
+#5 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\Route))
+#6 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\MiddlewareAwareTrait.php(70): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\Route))
+#7 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\league\oauth2-server\src\Middleware\ResourceServerMiddleware.php(54): Slim\Route->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 [internal function]: League\OAuth2\Server\Middleware\ResourceServerMiddleware->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Closure))
+#9 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\DeferredCallable.php(57): call_user_func_array(Object(League\OAuth2\Server\Middleware\ResourceServerMiddleware), Array)
+#10 [internal function]: Slim\DeferredCallable->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Closure))
+#11 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\MiddlewareAwareTrait.php(70): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Closure))
+#12 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\MiddlewareAwareTrait.php(117): Slim\Route->Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#13 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#14 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#15 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#16 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#17 C:\wamp64\www\crm_folder\suiteCRM_finalTest\vendor\slim\slim\Slim\App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#18 C:\wamp64\www\crm_folder\suiteCRM_finalTest\Api\index.php(4): Slim\App->run()
+#19 {main}
+
+Thu Nov 20 12:38:44 2025 [7228][-none-][FATAL] SECURITY: User authentication for admin123 failed
+Thu Nov 20 12:38:44 2025 [7228][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin123]
+Thu Nov 20 13:37:26 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Thu Nov 20 13:37:26 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Thu Nov 20 13:47:28 2025 [7228][-none-][FATAL] weekly_leads
+Fri Nov 21 04:24:39 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Fri Nov 21 04:24:39 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Fri Nov 21 04:26:30 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Fri Nov 21 04:26:30 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Fri Nov 21 04:26:59 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Fri Nov 21 04:26:59 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Fri Nov 21 04:32:04 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Fri Nov 21 04:32:04 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Fri Nov 21 04:33:28 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Fri Nov 21 04:33:28 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Fri Nov 21 04:33:29 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Fri Nov 21 04:33:29 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Fri Nov 21 04:34:26 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Fri Nov 21 04:34:26 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Fri Nov 21 04:34:29 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Fri Nov 21 04:34:29 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Fri Nov 21 04:35:05 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Fri Nov 21 04:35:05 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Fri Nov 21 04:36:26 2025 [7228][-none-][FATAL] weekly_leads
+Fri Nov 21 04:40:00 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Fri Nov 21 04:40:00 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Fri Nov 21 04:41:54 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Fri Nov 21 04:41:54 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Fri Nov 21 04:41:55 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Fri Nov 21 04:41:55 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: index
+Fri Nov 21 05:04:00 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: c4653cc6-a297-93e0-69b9-691ff20b32cc
+Fri Nov 21 05:04:00 2025 [7228][1][FATAL] Mysqli_query failed.
+Fri Nov 21 05:04:00 2025 [7228][1][FATAL]  Query Failed: INSERT INTO leads_cstm (id_c ,followup_date_c ,jjwg_maps_lat_c ,jjwg_maps_lng_c ) VALUES ('c4653cc6-a297-93e0-69b9-691ff20b32cc' ,NULL ,0 ,0 ): MySQL error 1062: Duplicate entry 'c4653cc6-a297-93e0-69b9-691ff20b32cc' for key 'leads_cstm.PRIMARY'
+Fri Nov 21 05:04:00 2025 [7228][1][FATAL] Mysqli_query failed.
+Fri Nov 21 05:04:00 2025 [7228][1][FATAL] Error inserting into table: leads: Query Failed: INSERT INTO leads (id,date_entered,date_modified,modified_user_id,created_by,description,deleted,assigned_user_id,salutation,first_name,last_name,title,department,do_not_call,phone_mobile,phone_work,phone_fax,primary_address_street,primary_address_city,primary_address_state,primary_address_postalcode,primary_address_country,alt_address_street,alt_address_city,alt_address_state,alt_address_postalcode,alt_address_country,converted,refered_by,lead_source,lead_source_description,status,status_description,account_name,contact_id,account_id,opportunity_id,opportunity_amount,campaign_id,website)
+					VALUES ('c4653cc6-a297-93e0-69b9-691ff20b32cc','2025-11-21 05:03:59','2025-11-21 05:03:59','1','1','',0,'1','Mr.','Mangesh','Bagde','Frontend Developer','',0,'','','','','','','','','','','','','',0,'','','','New','','','','','','','','http://'): MySQL error 1062: Duplicate entry 'c4653cc6-a297-93e0-69b9-691ff20b32cc' for key 'leads.PRIMARY'
+Fri Nov 21 05:04:00 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Fri Nov 21 05:04:00 2025 [7228][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Nov 21 06:05:57 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: bbd240e7-9cf7-6229-a4b5-691ff42d12e6
+Fri Nov 21 06:05:58 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: bbd240e7-9cf7-6229-a4b5-691ff42d12e6
+Fri Nov 21 06:05:58 2025 [7228][1][FATAL] Follow-up date already set, skipping.
+Fri Nov 21 06:05:58 2025 [7228][1][FATAL] Follow-up date updated successfully: 2025-11-24
+Fri Nov 21 06:10:13 2025 [7228][-none-][FATAL] weekly_leads
+Fri Nov 21 07:39:46 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 2238512b-f20a-bb3d-1a2c-692017bc3639
+Fri Nov 21 07:39:46 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 2238512b-f20a-bb3d-1a2c-692017bc3639
+Fri Nov 21 07:39:46 2025 [7228][1][FATAL] Follow-up date already set, skipping.
+Fri Nov 21 07:39:46 2025 [7228][1][FATAL] Follow-up date updated successfully: 2025-11-24
+Fri Nov 21 07:41:44 2025 [24912][1][FATAL] Daily account summary scheduler run at 2025-11-21 07:4144
+Fri Nov 21 07:41:44 2025 [24912][1][FATAL] Daily account summary scheduler end
+Fri Nov 21 07:41:44 2025 [24912][1][FATAL] ========= Leads Created Today  ==========
+Fri Nov 21 07:41:44 2025 [24912][1][FATAL] Total Leads created by today is less than 5 : 1
+Fri Nov 21 07:41:44 2025 [24912][1][FATAL] ========= Leads Created Today ==========
+Fri Nov 21 08:20:03 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 382990a8-a95d-76af-3d23-692020422ab4
+Fri Nov 21 08:20:03 2025 [7228][1][FATAL] Mysqli_query failed.
+Fri Nov 21 08:20:03 2025 [7228][1][FATAL]  Query Failed: 
+        UPDATE leads
+        SET followup_date = '2025-11-24',
+            date_modified = NOW()
+        WHERE id = '382990a8-a95d-76af-3d23-692020422ab4' AND deleted = 0
+    : MySQL error 1054: Unknown column 'followup_date' in 'field list'
+Fri Nov 21 08:20:03 2025 [7228][1][FATAL] Follow-up date updated successfully: 2025-11-24
+Fri Nov 21 08:30:22 2025 [7228][1][FATAL] Custom Workflow Action Triggered For Leads, ID: 5e34234f-017f-e20d-8f3f-6920230bac4d
+Fri Nov 21 08:30:22 2025 [7228][1][FATAL] Follow-up date updated successfully: 2025-11-24
+Fri Nov 21 08:45:03 2025 [21444][1][FATAL] Daily account summary scheduler run at 2025-11-21 08:4503
+Fri Nov 21 08:45:03 2025 [21444][1][FATAL] Daily account summary scheduler end
+Fri Nov 21 08:45:03 2025 [21444][1][FATAL] ========= Leads Created Today  ==========
+Fri Nov 21 08:45:03 2025 [21444][1][FATAL] Total Leads created by today is less than 5 : 3
+Fri Nov 21 08:45:03 2025 [21444][1][FATAL] ========= Leads Created Today ==========
+Fri Nov 21 09:10:37 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Fri Nov 21 09:10:37 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: HelloWorld
+Fri Nov 21 09:19:28 2025 [7228][1][FATAL] Exception handling in C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\MVC\Controller\SugarController.php:397
+Fri Nov 21 09:19:28 2025 [7228][1][FATAL] Exception in Controller: There is no action by that name: HelloWorld
+Fri Nov 21 10:56:44 2025 [7228][-none-][FATAL] weekly_leads
+Fri Nov 21 10:56:44 2025 [7228][-none-][FATAL] End:SugarWebServiceImplv4->lat_get_mobile_modules
+Fri Nov 21 10:57:13 2025 [7228][-none-][FATAL] weekly_leads
+Fri Nov 21 10:58:46 2025 [7228][-none-][FATAL] weekly_leads
