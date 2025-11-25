@@ -12,7 +12,7 @@ class ContactsController extends SugarController
         echo 'Hello from custom controller in Contacts module';
         exit();
     }
-
+                                  
     // function for module health check in Administration
     public function action_moduleHealthCheck()
     {

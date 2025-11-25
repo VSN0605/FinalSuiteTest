@@ -380,3 +380,32 @@ Fri Nov 21 10:56:44 2025 [7228][-none-][FATAL] weekly_leads
 Fri Nov 21 10:56:44 2025 [7228][-none-][FATAL] End:SugarWebServiceImplv4->lat_get_mobile_modules
 Fri Nov 21 10:57:13 2025 [7228][-none-][FATAL] weekly_leads
 Fri Nov 21 10:58:46 2025 [7228][-none-][FATAL] weekly_leads
+Mon Nov 24 11:52:42 2025 [7228][-none-][FATAL] === CUSTOM ROLE SCRIPT EXECUTED ===
+Mon Nov 24 11:52:42 2025 [7228][-none-][FATAL] Role Testing Role creating started
+Mon Nov 24 11:52:42 2025 [7228][-none-][FATAL] Role 'Testing Role' created successfully with ID: 83696b11-9c09-329f-b320-692447812ad2
+Mon Nov 24 11:54:22 2025 [7228][-none-][FATAL] === CUSTOM ROLE SCRIPT EXECUTED ===
+Mon Nov 24 11:54:22 2025 [7228][-none-][FATAL] Role Testing Role creating started
+Mon Nov 24 11:54:22 2025 [7228][-none-][FATAL] Role 'Testing Role' already exists. Skipping creation.
+Mon Nov 24 11:54:24 2025 [7228][-none-][FATAL] === CUSTOM ROLE SCRIPT EXECUTED ===
+Mon Nov 24 11:54:24 2025 [7228][-none-][FATAL] Role Testing Role creating started
+Mon Nov 24 11:54:24 2025 [7228][-none-][FATAL] Role 'Testing Role' already exists. Skipping creation.
+Mon Nov 24 11:55:18 2025 [7228][-none-][FATAL] === CUSTOM ROLE SCRIPT EXECUTED ===
+Mon Nov 24 11:55:18 2025 [7228][-none-][FATAL] Role Testing Role creating started
+Mon Nov 24 11:55:18 2025 [7228][-none-][FATAL] Role 'Testing Role' already exists. Skipping creation.
+Mon Nov 24 11:59:26 2025 [7228][-none-][FATAL] === CUSTOM ROLE SCRIPT EXECUTED ===
+Mon Nov 24 11:59:26 2025 [7228][-none-][FATAL] Role Testing Role creating started
+Mon Nov 24 11:59:26 2025 [7228][-none-][FATAL] Role 'Testing Role' already exists. Skipping creation.
+Mon Nov 24 11:59:26 2025 [7228][-none-][FATAL] Setting permissions for role ID: 83696b11-9c09-329f-b320-692447812ad2
+Tue Nov 25 08:09:17 2025 [8916][-none-][FATAL] === CUSTOM ROLE SCRIPT EXECUTED ===
+Tue Nov 25 08:09:17 2025 [8916][-none-][FATAL] Role Testing Role creating started
+Tue Nov 25 08:09:17 2025 [8916][-none-][FATAL] Role 'Testing Role' already exists. Skipping creation.
+Tue Nov 25 08:09:17 2025 [8916][-none-][FATAL] Setting permissions for role ID: 83696b11-9c09-329f-b320-692447812ad2
+Tue Nov 25 08:26:33 2025 [8916][-none-][FATAL] === CUSTOM ROLE SCRIPT EXECUTED ===
+Tue Nov 25 08:26:33 2025 [8916][-none-][FATAL] Role Testing Role creating started
+Tue Nov 25 08:26:33 2025 [8916][-none-][FATAL] Role 'Testing Role' already exists. Skipping creation.
+Tue Nov 25 08:26:47 2025 [8916][-none-][FATAL] === CUSTOM ROLE SCRIPT EXECUTED ===
+Tue Nov 25 08:26:47 2025 [8916][-none-][FATAL] Role Testing Role creating started
+Tue Nov 25 08:26:47 2025 [8916][-none-][FATAL] Role 'Testing Role' already exists. Skipping creation.
+Tue Nov 25 08:26:52 2025 [8916][-none-][FATAL] Created Security Group: Testing Security Group
+Tue Nov 25 08:26:52 2025 [8916][-none-][FATAL] Assigned Role ID: 83696b11-9c09-329f-b320-692447812ad2 to Security Group ID: cc33a21c-dbf6-7176-0686-6925684b7d8a
+Tue Nov 25 08:26:52 2025 [8916][-none-][FATAL] === ROLE CREATION PROCESS COMPLETED ===

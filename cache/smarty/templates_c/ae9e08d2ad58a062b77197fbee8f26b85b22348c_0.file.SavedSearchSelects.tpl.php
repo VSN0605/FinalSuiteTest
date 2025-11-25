@@ -1,0 +1,44 @@
+<?php
+/* Smarty version 4.5.5, created on 2025-11-25 08:27:22
+  from 'C:\wamp64\www\crm_folder\suiteCRM_finalTest\modules\SavedSearch\SavedSearchSelects.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.5.5',
+  'unifunc' => 'content_6925686a9efc58_02926289',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'ae9e08d2ad58a062b77197fbee8f26b85b22348c' => 
+    array (
+      0 => 'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\modules\\SavedSearch\\SavedSearchSelects.tpl',
+      1 => 1763526365,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_6925686a9efc58_02926289 (Smarty_Internal_Template $_smarty_tpl) {
+if ($_smarty_tpl->tpl_vars['SAVED_SEARCHES_OPTIONS']->value != null) {?>
+<select style="width: auto !important; min-width: 150px;" name='saved_search_select' id='saved_search_select' onChange='SUGAR.savedViews.shortcut_select(this, "<?php echo $_smarty_tpl->tpl_vars['SEARCH_MODULE']->value;?>
+");'>
+	<?php echo $_smarty_tpl->tpl_vars['SAVED_SEARCHES_OPTIONS']->value;?>
+
+</select>
+<?php echo '<script'; ?>
+>
+
+	//if the function exists, call the function that will populate the searchform
+	//labels based on the value of the saved search dropdown
+	if(typeof(fillInLabels)=='function'){
+		fillInLabels();
+	}
+	
+<?php echo '</script'; ?>
+>
+<?php }?>
+
+<?php }
+}

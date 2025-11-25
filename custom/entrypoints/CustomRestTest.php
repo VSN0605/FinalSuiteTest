@@ -64,9 +64,9 @@ echo "Below is the first 10 Accounts name and also you can check log file.<br><b
 foreach ($accounts->entry_list as $acc) {
     $name = $acc->name_value_list->name->value;
     echo"<h3>" . $name . "</h3>";
-}
+}                              
 
-function call_rest($method, $parameters, $url)
+function call_rest($method, $parameters, $url)  
 {
     $json = json_encode($parameters);
     $postArgs = "method=$method&input_type=JSON&response_type=JSON&rest_data={$json}";

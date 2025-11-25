@@ -78,7 +78,7 @@ class SugarWebServiceImplv4_1 extends SugarWebServiceImplv4
             return array('status' => 'invalid session');
  
         }
-        $week = date('Y-m-d', strtotime('-7 days'));
+        $week = date('Y-m-d', strtotime('-7 days'));                    
         $lead_bean = BeanFactory::newBean('Leads');
         $result    = $lead_bean->get_list('date_entered Desc',"leads.date_entered >= '$week'",0,-1);
         $total     = count($result['list']);

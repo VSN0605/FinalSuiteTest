@@ -131,8 +131,8 @@ class SugarWebServiceUtilv4_1 extends SugarWebServiceUtilv4
             $params['limit'] = $limit;
 
             if (!empty($optional_where)) {
-                $params['where'] = $optional_where;
-            }
+                $params['where'] = $optional_where;  
+            }                                                 
 
             if (!empty($order_by)) {
                 $params['order_by'] = $order_by;

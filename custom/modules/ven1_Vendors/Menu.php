@@ -5,4 +5,4 @@ $module_menu[] = array(
     'Import New',                                     // label shown in menu
     'Import',                                         // icon (optional)
     'ven1_Vendors'                                    // module
-);
+);         

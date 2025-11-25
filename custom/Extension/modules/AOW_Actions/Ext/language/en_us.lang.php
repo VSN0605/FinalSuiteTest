@@ -1,5 +1,5 @@
 <?php
 
-$mod_strings['LBL_FOLLOWUPDATE'] = 'Follow Up Date';
+$mod_strings['LBL_FOLLOWUPDATE'] = 'Follow Up Date';                      
 
 

@@ -4,7 +4,7 @@ if(!defined('sugarEntry') || !sugarEntry) {
     die('Not a valid entry point');
 }
 
-header('Content-Type: application/json');
+header('Content-Type: application/json');                          
 
 global $db;
 

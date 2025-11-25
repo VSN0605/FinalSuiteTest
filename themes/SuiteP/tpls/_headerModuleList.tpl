@@ -164,7 +164,7 @@
         <div class="desktop-toolbar" id="toolbar">
             {if $USE_GROUP_TABS}
                 <ul class="nav navbar-nav">
-                    <li class="navbar-brand-container">
+                    <li class="navbar-brand-container">                          
                             <a class="navbar-brand with-home-icon suitepicon suitepicon-action-home" href="index.php?module=Home&action=index"></a>
                     </li>
                     <li><a href="index.php?entryPoint=quickTools">Quick Tools</a></li>

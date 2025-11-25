@@ -18,7 +18,7 @@ class actionFollowUPDate extends AOW_Action
 
     public function run_action(SugarBean $bean, $params = [])
     {
-        global $db;
+        global $db;                            
         // Calculate follow-up date (today + 3 days)
         $futuredate = date('Y-m-d', strtotime('+3 days'));
 

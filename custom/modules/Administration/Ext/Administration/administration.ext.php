@@ -10,7 +10,7 @@ $admin_option_defs['Administration']['your_custom_link_identifier'] = array(
     './index.php?module=Contacts&action=moduleHealthCheck' 
 );
 
-
+                                      
 $admin_group_header[] = array(
     'LBL_MODULE_HEALTH_CHECK_TITLE', // Panel Title
     '',                            // Icon (optional)

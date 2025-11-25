@@ -3,7 +3,7 @@
 require_once('include/MVC/View/SugarView.php');
 
 class ContactsViewModuleHealthCheck extends SugarView
-{
+{                                            
     public function display()
     {
         echo "<h2>Module Health Check</h2>";

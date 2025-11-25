@@ -8,8 +8,8 @@ $global_control_links['developer_notes'] = array(
     'linkinfo' => array(
         'Developer Notes' => 'https://docs.suitecrm.com/',
     ),
-    'submenu' => '',
-    'url' => 'https://docs.suitecrm.com/',
+    'submenu' => '',                    
+    'url' => 'https://docs.suitecrm.com/',         
     'image_src' => false,
     'description' => 'Developer Notes Documentation'
 );

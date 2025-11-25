@@ -1,6 +1,4 @@
 <?php
     
 
-$aow_actions_list[] = 'FollowUpDate';
-
-
+$aow_actions_list[] = 'FollowUpDate';             
