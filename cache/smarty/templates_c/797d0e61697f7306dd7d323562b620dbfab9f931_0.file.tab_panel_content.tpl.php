@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-25 08:09:06
+/* Smarty version 4.5.5, created on 2025-11-27 12:40:00
   from 'C:\wamp64\www\crm_folder\suiteCRM_finalTest\themes\SuiteP\include\EditView\tab_panel_content.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_692564222635e1_51461491',
+  'unifunc' => 'content_692846a0c56007_15245949',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_692564222635e1_51461491 (Smarty_Internal_Template $_smarty_tpl) {
+function content_692846a0c56007_15245949 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.counter.php','function'=>'smarty_function_counter',),1=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.sugar_field.php','function'=>'smarty_function_sugar_field',),2=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.sugar_evalcolumn.php','function'=>'smarty_function_sugar_evalcolumn',),));
 ?>
     <!-- tab_panel_content.tpl -->

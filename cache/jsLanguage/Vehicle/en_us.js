@@ -1,0 +1,1 @@
+SUGAR.language.setLanguage('Vehicle', {"LBL_NAME":"Vehicle Name","LBL_MODEL":"Vehicle Model","LBL_COLOR":"Vehicle Color","LBL_MODULE_NAME":"Vehicle","LBL_MODULE_TITLE":"Vehicle Home"});

@@ -1,6 +1,12 @@
 <?php 
  //WARNING: The contents of this file are auto-generated
 
+
+
+$beanList['Vehicle'] = 'Vehicle';
+$beanFiles['Vehicle'] = 'modules/Vehicle/Vehicle.php';
+$moduleList[] = 'Vehicle';
+$moduleTabs[] = 'Vehicle';
  
  //WARNING: The contents of this file are auto-generated
 $beanList['ven1_Vendors'] = 'ven1_Vendors';

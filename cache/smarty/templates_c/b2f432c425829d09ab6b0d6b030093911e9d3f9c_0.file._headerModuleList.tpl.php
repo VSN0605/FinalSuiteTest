@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-25 08:08:57
+/* Smarty version 4.5.5, created on 2025-11-27 12:39:53
   from 'C:\wamp64\www\crm_folder\suiteCRM_finalTest\themes\SuiteP\tpls\_headerModuleList.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_692564197fa435_80737556',
+  'unifunc' => 'content_69284699a52665_68712722',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b2f432c425829d09ab6b0d6b030093911e9d3f9c' => 
     array (
       0 => 'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\themes\\SuiteP\\tpls\\_headerModuleList.tpl',
-      1 => 1763725542,
+      1 => 1764233830,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_692564197fa435_80737556 (Smarty_Internal_Template $_smarty_tpl) {
+function content_69284699a52665_68712722 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.sugar_link.php','function'=>'smarty_function_sugar_link',),1=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.sugar_translate.php','function'=>'smarty_function_sugar_translate',),2=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\modifier.replace.php','function'=>'smarty_modifier_replace',),3=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.suite_check_access.php','function'=>'smarty_function_suite_check_access',),4=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.counter.php','function'=>'smarty_function_counter',),5=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.search_controller.php','function'=>'smarty_function_search_controller',),));
 ?>
 <!--Start Responsive Top Navigation Menu -->
