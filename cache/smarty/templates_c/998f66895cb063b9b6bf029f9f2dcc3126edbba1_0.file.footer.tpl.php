@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-27 12:40:02
-  from 'C:\wamp64\www\crm_folder\suiteCRM_finalTest\themes\SuiteP\include\EditView\footer.tpl' */
+/* Smarty version 4.5.5, created on 2025-11-28 11:26:51
+  from 'C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\DetailView\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_692846a2b1ed67_80400572',
+  'unifunc' => 'content_692986fbef1313_40140274',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '084d9752492c826495b587cfcef36060053cc375' => 
+    '998f66895cb063b9b6bf029f9f2dcc3126edbba1' => 
     array (
-      0 => 'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\themes\\SuiteP\\include\\EditView\\footer.tpl',
-      1 => 1763526435,
+      0 => 'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\DetailView\\footer.tpl',
+      1 => 1763526420,
       2 => 'file',
     ),
   ),
@@ -20,10 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_692846a2b1ed67_80400572 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.sugar_include.php','function'=>'smarty_function_sugar_include',),));
-?>
-{*
+function content_692986fbef1313_40140274 (Smarty_Internal_Template $_smarty_tpl) {
+?>{*
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -62,43 +60,12 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\
  * reasonably feasible for technical reasons, the Appropriate Legal Notices must
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
+
 *}
-
-<?php echo '<script'; ?>
- language="javascript">
-    var _form_id = '{$form_id}';
-    {literal}
-    SUGAR.util.doWhen(function(){
-        _form_id = (_form_id == '') ? 'EditView' : _form_id;
-        return document.getElementById(_form_id) != null;
-    }, SUGAR.themes.actionMenu);
-    {/literal}
-<?php echo '</script'; ?>
->
-{assign var='place' value="_FOOTER"} <!-- to be used for id for buttons with custom code in def files-->
-<?php if (empty($_smarty_tpl->tpl_vars['form']->value['button_location']) || $_smarty_tpl->tpl_vars['form']->value['button_location'] == 'bottom') {?>
-
-<?php echo smarty_function_sugar_include(array('type'=>'smarty','file'=>'include/EditView/actions_buttons.tpl'),$_smarty_tpl);?>
-
-
-<?php }?>
 </form>
-<?php if ($_smarty_tpl->tpl_vars['externalJSFile']->value) {?>
-{sugar_include include=$externalJSFile}
-<?php }?>
-
-{$set_focus_block}
-
-<?php if ((isset($_smarty_tpl->tpl_vars['scriptBlocks']->value))) {?>
-<!-- Begin Meta-Data Javascript -->
-<?php echo $_smarty_tpl->tpl_vars['scriptBlocks']->value;?>
-
-<!-- End Meta-Data Javascript -->
-<?php }
-echo '<script'; ?>
->SUGAR.util.doWhen("document.getElementById('EditView') != null",
+<?php echo '<script'; ?>
+>SUGAR.util.doWhen("document.getElementById('form') != null",
         function(){ldelim}SUGAR.util.buildAccessKeyLabels();{rdelim});
 <?php echo '</script'; ?>
->
-<?php }
+><?php }
 }

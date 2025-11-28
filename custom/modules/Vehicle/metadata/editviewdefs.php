@@ -1,7 +1,6 @@
 <?php
 
-$module_name = 'Vehicle';
-// $GLOBALS['log']->fatal("from editviewdefs file " . $module_name);
+// $module_name = 'Vehicle';
 
 $viewdefs['Vehicle']['EditView'] = array(
     'templateMeta' => array(

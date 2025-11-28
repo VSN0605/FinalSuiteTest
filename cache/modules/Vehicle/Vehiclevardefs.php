@@ -7,6 +7,24 @@
   'acl_class' => 'VehicleACL',
   'fields' => 
   array (
+    'id' => 
+    array (
+      'name' => 'id',
+      'vname' => 'LBL_ID',
+      'type' => 'id',
+      'len' => 36,
+      'required' => true,
+      'reportable' => true,
+      'comment' => 'Primary key',
+    ),
+    'deleted' => 
+    array (
+      'name' => 'deleted',
+      'vname' => 'LBL_DELETED',
+      'type' => 'bool',
+      'default' => 0,
+      'reportable' => false,
+    ),
     'name' => 
     array (
       'name' => 'name',
@@ -29,6 +47,12 @@
       'vname' => 'LBL_COLOR',
       'type' => 'varchar',
       'len' => 20,
+    ),
+    'date_modified' => 
+    array (
+      'name' => 'date_modified',
+      'vname' => 'LBL_DATE_MODIFIED',
+      'type' => 'datetime',
     ),
   ),
   'custom_fields' => false,

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-27 12:39:24
+/* Smarty version 4.5.5, created on 2025-11-28 11:26:34
   from 'C:\wamp64\www\crm_folder\suiteCRM_finalTest\modules\Alerts\templates\default.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_6928467cbe4b53_64507249',
+  'unifunc' => 'content_692986ea8b6cc1_72905817',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6928467cbe4b53_64507249 (Smarty_Internal_Template $_smarty_tpl) {
+function content_692986ea8b6cc1_72905817 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.sugar_translate.php','function'=>'smarty_function_sugar_translate',),1=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\modifier.replace.php','function'=>'smarty_modifier_replace',),));
 echo $_smarty_tpl->tpl_vars['Flash']->value;?>
 

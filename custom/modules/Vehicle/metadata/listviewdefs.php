@@ -1,8 +1,8 @@
 <?php
 
-$module_name = 'Vehicle';
+// $module_name = 'Vehicle';
 
-$listViewDefs[$module_name] = array(
+$listViewDefs['Vehicle'] = array(
     'NAME' => array(
         'width' => '30%',
         'label' => 'LBL_NAME',

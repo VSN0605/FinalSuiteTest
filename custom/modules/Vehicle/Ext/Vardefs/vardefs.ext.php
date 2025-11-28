@@ -2,6 +2,8 @@
  //WARNING: The contents of this file are auto-generated
 
 
+$dictionary['Vehicle']['custom_class'] = 'CustomVehicle';
+
 
 $dictionary['Vehicle'] = array(
     'table' => 'vehicle',
@@ -10,6 +12,22 @@ $dictionary['Vehicle'] = array(
     'acl' => true,
     'acl_class' => 'VehicleACL',
     'fields' => array(
+        'id' => array(
+            'name' => 'id',
+            'vname' => 'LBL_ID',
+            'type' => 'id',
+            'len' => 36,
+            'required' => true,
+            'reportable' => true,
+            'comment' => 'Primary key',
+        ),
+        'deleted' => array(
+            'name' => 'deleted',
+            'vname' => 'LBL_DELETED',
+            'type' => 'bool',
+            'default' => 0,
+            'reportable' => false,
+        ),
         'name' => array(
             'name' => 'name',
             'vname' => 'LBL_NAME',
@@ -30,9 +48,13 @@ $dictionary['Vehicle'] = array(
             'type' => 'varchar',
             'len' => 20,
         ),
+        'date_modified' => array(
+            'name' => 'date_modified',
+            'vname' => 'LBL_DATE_MODIFIED',
+            'type' => 'datetime',
+            // 'len' => ,
+        ),
     ),
-    // 'relationships' => array(),
 );
 
-// $GLOBALS['log']->fatal("from vehicle_vardefs file ", print_r($dictionary));
 ?>
