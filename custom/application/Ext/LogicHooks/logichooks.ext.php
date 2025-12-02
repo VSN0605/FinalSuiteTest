@@ -32,4 +32,18 @@ if (!isset($hook_array['after_save']) || !is_array($hook_array['after_save'])) {
     $hook_array['after_save'] = array();
 }
 $hook_array['after_save'][] = Array(99, 'AOW_Workflow', 'modules/AOW_WorkFlow/AOW_WorkFlow.php','AOW_WorkFlow', 'run_bean_flows');
+
+
+$hook_version = 1;
+$hook_array = array();
+
+$hook_array['after_ui_frame'][] = array(
+    1, // Sequence
+    'After User Load Custom Logic', // Description
+    'custom/LogicHooks/custom_user_logic.php', // File path
+    'CustomUserLogic', // Class name
+    'handleAfterUserLoad' // Function name
+);
+
+
 ?>
