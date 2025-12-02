@@ -43,6 +43,12 @@ $dictionary['Vehicle'] = array(
             'type' => 'varchar',
             'len' => 20,
         ),
+        'engine_number' => array(
+            'name' => 'engine_number',
+            'vname' => 'LBL_ENGINE_NUMBER',
+            'type' => 'varchar',
+            'len' => 30,
+        ),
         'date_modified' => array(
             'name' => 'date_modified',
             'vname' => 'LBL_DATE_MODIFIED',

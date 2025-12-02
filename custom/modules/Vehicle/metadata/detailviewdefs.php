@@ -53,7 +53,12 @@ array(
                         'comment' => 'Color of the Vehicle',
                         'label' => 'LBL_COLOR',
                     ),
-                    
+                    1 =>
+                    array(
+                        'name' => 'engine_number',
+                        'comment' => 'Engine number of vehicle',
+                        'label' => 'LBL_ENGINE_NUMBER',
+                    ),
                 ),
             ),
         ),

@@ -3,6 +3,15 @@
 
 
 
+$dictionary['Vehicle']['fields']['engine_number'] = array(
+    'name' => 'engine_number',
+    'type' => 'varchar',
+    'side' => 'right',
+    'class' => 'engine_number',
+    'vname' => 'LBL_ENGINE_NUMBER',
+);
+
+
 $dictionary['Vehicle'] = array(
     'table' => 'vehicle',
     'audited' => true,
@@ -45,6 +54,12 @@ $dictionary['Vehicle'] = array(
             'vname' => 'LBL_COLOR',
             'type' => 'varchar',
             'len' => 20,
+        ),
+        'engine_number' => array(
+            'name' => 'engine_number',
+            'vname' => 'LBL_ENGINE_NUMBER',
+            'type' => 'varchar',
+            'len' => 30,
         ),
         'date_modified' => array(
             'name' => 'date_modified',

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-12-02 06:07:01
+/* Smarty version 4.5.5, created on 2025-12-02 08:00:46
   from 'C:\wamp64\www\crm_folder\suiteCRM_finalTest\cache\themes\SuiteP\modules\Vehicle\EditView.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_692e82057f5640_19444547',
+  'unifunc' => 'content_692e9caec3bd28_85194662',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3777a0964f203a35a1a11233591803f7725c7722' => 
     array (
       0 => 'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\cache\\themes\\SuiteP\\modules\\Vehicle\\EditView.tpl',
-      1 => 1764655621,
+      1 => 1764662446,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_692e82057f5640_19444547 (Smarty_Internal_Template $_smarty_tpl) {
+function content_692e9caec3bd28_85194662 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\modifier.escape.php','function'=>'smarty_modifier_escape',),1=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.sugar_include.php','function'=>'smarty_function_sugar_include',),2=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.sugar_translate.php','function'=>'smarty_function_sugar_translate',),3=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\block.minify.php','function'=>'smarty_block_minify',),4=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\modifier.strip_semicolon.php','function'=>'smarty_modifier_strip_semicolon',),5=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.counter.php','function'=>'smarty_function_counter',),));
 ?>
 
@@ -166,22 +166,22 @@ if (!empty($_smarty_tpl->tpl_vars['fields']->value['id']['value']) && $_smarty_t
 <div class="panel-heading ">
 <a class="" role="button" data-toggle="collapse-edit" aria-expanded="false">
 <div class="col-xs-10 col-sm-11 col-md-11">
-<?php echo smarty_function_sugar_translate(array('label'=>'DEFAULT','module'=>'Vehicle'),$_smarty_tpl);?>
+<?php echo smarty_function_sugar_translate(array('label'=>'LBL_VEHICLE_INFORMATION','module'=>'Vehicle'),$_smarty_tpl);?>
 
 </div>
 </a>
 </div>
-<div class="panel-body panel-collapse collapse in panelContainer" id="detailpanel_-1" data-id="DEFAULT">
+<div class="panel-body panel-collapse collapse in panelContainer" id="detailpanel_-1" data-id="LBL_VEHICLE_INFORMATION">
 <div class="tab-content">
 <!-- tab_panel_content.tpl -->
 <div class="row edit-view-row">
 
 
 
-<div class="col-xs-12 col-sm-12 edit-view-row-item" data-field="name">
+<div class="col-xs-12 col-sm-6 edit-view-row-item" data-field="name">
 
 
-<div class="col-xs-12 col-sm-2 label" data-label="LBL_NAME">
+<div class="col-xs-12 col-sm-4 label" data-label="LBL_NAME">
 
 <?php $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('minify', array());
 $_block_repeat=true;
@@ -189,7 +189,7 @@ echo smarty_block_minify(array(), null, $_smarty_tpl, $_block_repeat);
 while ($_block_repeat) {
 ob_start();
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "label", "label", null);
-echo smarty_function_sugar_translate(array('label'=>'LBL_NAME','module'=>'Vehicle'),$_smarty_tpl);
+echo smarty_function_sugar_translate(array('label'=>'Vehicle Name','module'=>'Vehicle'),$_smarty_tpl);
 $_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);
 echo smarty_modifier_strip_semicolon($_smarty_tpl->tpl_vars['label']->value);?>
 :
@@ -201,7 +201,7 @@ echo smarty_block_minify(array(), ob_get_clean(), $_smarty_tpl, $_block_repeat);
 array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);?>
 </div>
 
-<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="name" colspan='3' >
+<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="name"  >
 <?php echo smarty_function_counter(array('name'=>"panelFieldCount",'print'=>false),$_smarty_tpl);?>
 
 
@@ -220,14 +220,12 @@ maxlength='255'        value='<?php echo $_smarty_tpl->tpl_vars['value']->value;
 
 <!-- [/hide] -->
 </div>
-<div class="clear"></div>
 
 
+<div class="col-xs-12 col-sm-6 edit-view-row-item" data-field="model">
 
-<div class="col-xs-12 col-sm-12 edit-view-row-item" data-field="model">
 
-
-<div class="col-xs-12 col-sm-2 label" data-label="LBL_MODEL">
+<div class="col-xs-12 col-sm-4 label" data-label="LBL_MODEL">
 
 <?php $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('minify', array());
 $_block_repeat=true;
@@ -235,7 +233,7 @@ echo smarty_block_minify(array(), null, $_smarty_tpl, $_block_repeat);
 while ($_block_repeat) {
 ob_start();
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "label", "label", null);
-echo smarty_function_sugar_translate(array('label'=>'LBL_MODEL','module'=>'Vehicle'),$_smarty_tpl);
+echo smarty_function_sugar_translate(array('label'=>'Vehicle Model','module'=>'Vehicle'),$_smarty_tpl);
 $_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);
 echo smarty_modifier_strip_semicolon($_smarty_tpl->tpl_vars['label']->value);?>
 :
@@ -247,7 +245,7 @@ echo smarty_block_minify(array(), ob_get_clean(), $_smarty_tpl, $_block_repeat);
 array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);?>
 </div>
 
-<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="model" colspan='3' >
+<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="model"  >
 <?php echo smarty_function_counter(array('name'=>"panelFieldCount",'print'=>false),$_smarty_tpl);?>
 
 
@@ -267,13 +265,14 @@ maxlength='100'        value='<?php echo $_smarty_tpl->tpl_vars['value']->value;
 <!-- [/hide] -->
 </div>
 <div class="clear"></div>
+<div class="clear"></div>
 
 
 
-<div class="col-xs-12 col-sm-12 edit-view-row-item" data-field="color">
+<div class="col-xs-12 col-sm-6 edit-view-row-item" data-field="color">
 
 
-<div class="col-xs-12 col-sm-2 label" data-label="LBL_COLOR">
+<div class="col-xs-12 col-sm-4 label" data-label="LBL_COLOR">
 
 <?php $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('minify', array());
 $_block_repeat=true;
@@ -281,7 +280,7 @@ echo smarty_block_minify(array(), null, $_smarty_tpl, $_block_repeat);
 while ($_block_repeat) {
 ob_start();
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "label", "label", null);
-echo smarty_function_sugar_translate(array('label'=>'LBL_COLOR','module'=>'Vehicle'),$_smarty_tpl);
+echo smarty_function_sugar_translate(array('label'=>'Vehicle Color','module'=>'Vehicle'),$_smarty_tpl);
 $_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);
 echo smarty_modifier_strip_semicolon($_smarty_tpl->tpl_vars['label']->value);?>
 :
@@ -292,7 +291,7 @@ echo smarty_block_minify(array(), ob_get_clean(), $_smarty_tpl, $_block_repeat);
 array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);?>
 </div>
 
-<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="color" colspan='3' >
+<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="color"  >
 <?php echo smarty_function_counter(array('name'=>"panelFieldCount",'print'=>false),$_smarty_tpl);?>
 
 
@@ -313,7 +312,46 @@ maxlength='20'        value='<?php echo $_smarty_tpl->tpl_vars['value']->value;?
 </div>
 
 
-<div class="col-xs-12 col-sm-6 edit-view-row-item" data-field="">
+<div class="col-xs-12 col-sm-6 edit-view-row-item" data-field="engine_number">
+
+
+<div class="col-xs-12 col-sm-4 label" data-label="LBL_ENGINE_NUMBER">
+
+<?php $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('minify', array());
+$_block_repeat=true;
+echo smarty_block_minify(array(), null, $_smarty_tpl, $_block_repeat);
+while ($_block_repeat) {
+ob_start();
+$_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "label", "label", null);
+echo smarty_function_sugar_translate(array('label'=>'Engine Number','module'=>'Vehicle'),$_smarty_tpl);
+$_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);
+echo smarty_modifier_strip_semicolon($_smarty_tpl->tpl_vars['label']->value);?>
+:
+
+<?php $_block_repeat=false;
+echo smarty_block_minify(array(), ob_get_clean(), $_smarty_tpl, $_block_repeat);
+}
+array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);?>
+</div>
+
+<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="engine_number"  >
+<?php echo smarty_function_counter(array('name'=>"panelFieldCount",'print'=>false),$_smarty_tpl);?>
+
+
+<?php if (strlen($_smarty_tpl->tpl_vars['fields']->value['engine_number']['value']) <= 0) {
+$_smarty_tpl->_assignInScope('value', $_smarty_tpl->tpl_vars['fields']->value['engine_number']['default_value']);
+} else {
+$_smarty_tpl->_assignInScope('value', $_smarty_tpl->tpl_vars['fields']->value['engine_number']['value']);
+}?>
+<input type='text' name='<?php echo $_smarty_tpl->tpl_vars['fields']->value['engine_number']['name'];?>
+'
+id='<?php echo $_smarty_tpl->tpl_vars['fields']->value['engine_number']['name'];?>
+' size='30'
+maxlength='30'        value='<?php echo $_smarty_tpl->tpl_vars['value']->value;?>
+' title=''      >
+</div>
+
+<!-- [/hide] -->
 </div>
 <div class="clear"></div>
 <div class="clear"></div>
@@ -471,6 +509,8 @@ addToValidate('EditView', 'name', 'varchar', true,'<?php echo smarty_function_su
 addToValidate('EditView', 'model', 'varchar', true,'<?php echo smarty_function_sugar_translate(array('label'=>'LBL_MODEL','module'=>'Vehicle','for_js'=>true),$_smarty_tpl);?>
 ' );
 addToValidate('EditView', 'color', 'varchar', false,'<?php echo smarty_function_sugar_translate(array('label'=>'LBL_COLOR','module'=>'Vehicle','for_js'=>true),$_smarty_tpl);?>
+' );
+addToValidate('EditView', 'engine_number', 'varchar', false,'<?php echo smarty_function_sugar_translate(array('label'=>'LBL_ENGINE_NUMBER','module'=>'Vehicle','for_js'=>true),$_smarty_tpl);?>
 ' );
 addToValidate('EditView', 'date_modified_date', 'date', false,'Date Modified' );
 addToValidateBinaryDependency('EditView', 'assigned_user_name', 'alpha', false,'<?php echo smarty_function_sugar_translate(array('label'=>'ERR_SQS_NO_MATCH_FIELD','module'=>'Vehicle','for_js'=>true),$_smarty_tpl);?>

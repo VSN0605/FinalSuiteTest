@@ -81,31 +81,31 @@
 <div class="panel-heading ">
 <a class="" role="button" data-toggle="collapse-edit" aria-expanded="false">
 <div class="col-xs-10 col-sm-11 col-md-11">
-{sugar_translate label='DEFAULT' module='Vehicle'}
+{sugar_translate label='LBL_VEHICLE_INFORMATION' module='Vehicle'}
 </div>
 </a>
 </div>
-<div class="panel-body panel-collapse collapse in panelContainer" id="detailpanel_-1" data-id="DEFAULT">
+<div class="panel-body panel-collapse collapse in panelContainer" id="detailpanel_-1" data-id="LBL_VEHICLE_INFORMATION">
 <div class="tab-content">
 <!-- tab_panel_content.tpl -->
 <div class="row edit-view-row">
 
 
 
-<div class="col-xs-12 col-sm-12 edit-view-row-item" data-field="name">
+<div class="col-xs-12 col-sm-6 edit-view-row-item" data-field="name">
 
 
-<div class="col-xs-12 col-sm-2 label" data-label="LBL_NAME">
+<div class="col-xs-12 col-sm-4 label" data-label="LBL_NAME">
 
 {minify}
-{capture name="label" assign="label"}{sugar_translate label='LBL_NAME' module='Vehicle'}{/capture}
+{capture name="label" assign="label"}{sugar_translate label='Vehicle Name' module='Vehicle'}{/capture}
 {$label|strip_semicolon}:
 
 <span class="required">*</span>
 {/minify}
 </div>
 
-<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="name" colspan='3' >
+<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="name"  >
 {counter name="panelFieldCount" print=false}
 
 {if strlen($fields.name.value) <= 0}
@@ -120,24 +120,22 @@ maxlength='255'        value='{$value}' title=''      >
 
 <!-- [/hide] -->
 </div>
-<div class="clear"></div>
 
 
+<div class="col-xs-12 col-sm-6 edit-view-row-item" data-field="model">
 
-<div class="col-xs-12 col-sm-12 edit-view-row-item" data-field="model">
 
-
-<div class="col-xs-12 col-sm-2 label" data-label="LBL_MODEL">
+<div class="col-xs-12 col-sm-4 label" data-label="LBL_MODEL">
 
 {minify}
-{capture name="label" assign="label"}{sugar_translate label='LBL_MODEL' module='Vehicle'}{/capture}
+{capture name="label" assign="label"}{sugar_translate label='Vehicle Model' module='Vehicle'}{/capture}
 {$label|strip_semicolon}:
 
 <span class="required">*</span>
 {/minify}
 </div>
 
-<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="model" colspan='3' >
+<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="model"  >
 {counter name="panelFieldCount" print=false}
 
 {if strlen($fields.model.value) <= 0}
@@ -153,22 +151,23 @@ maxlength='100'        value='{$value}' title=''      >
 <!-- [/hide] -->
 </div>
 <div class="clear"></div>
+<div class="clear"></div>
 
 
 
-<div class="col-xs-12 col-sm-12 edit-view-row-item" data-field="color">
+<div class="col-xs-12 col-sm-6 edit-view-row-item" data-field="color">
 
 
-<div class="col-xs-12 col-sm-2 label" data-label="LBL_COLOR">
+<div class="col-xs-12 col-sm-4 label" data-label="LBL_COLOR">
 
 {minify}
-{capture name="label" assign="label"}{sugar_translate label='LBL_COLOR' module='Vehicle'}{/capture}
+{capture name="label" assign="label"}{sugar_translate label='Vehicle Color' module='Vehicle'}{/capture}
 {$label|strip_semicolon}:
 
 {/minify}
 </div>
 
-<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="color" colspan='3' >
+<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="color"  >
 {counter name="panelFieldCount" print=false}
 
 {if strlen($fields.color.value) <= 0}
@@ -185,7 +184,32 @@ maxlength='20'        value='{$value}' title=''      >
 </div>
 
 
-<div class="col-xs-12 col-sm-6 edit-view-row-item" data-field="">
+<div class="col-xs-12 col-sm-6 edit-view-row-item" data-field="engine_number">
+
+
+<div class="col-xs-12 col-sm-4 label" data-label="LBL_ENGINE_NUMBER">
+
+{minify}
+{capture name="label" assign="label"}{sugar_translate label='Engine Number' module='Vehicle'}{/capture}
+{$label|strip_semicolon}:
+
+{/minify}
+</div>
+
+<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="engine_number"  >
+{counter name="panelFieldCount" print=false}
+
+{if strlen($fields.engine_number.value) <= 0}
+{assign var="value" value=$fields.engine_number.default_value }
+{else}
+{assign var="value" value=$fields.engine_number.value }
+{/if}
+<input type='text' name='{$fields.engine_number.name}'
+id='{$fields.engine_number.name}' size='30'
+maxlength='30'        value='{$value}' title=''      >
+</div>
+
+<!-- [/hide] -->
 </div>
 <div class="clear"></div>
 <div class="clear"></div>
@@ -291,6 +315,7 @@ addForm('EditView');addToValidate('EditView', 'deleted', 'bool', false,'{/litera
 addToValidate('EditView', 'name', 'varchar', true,'{/literal}{sugar_translate label='LBL_NAME' module='Vehicle' for_js=true}{literal}' );
 addToValidate('EditView', 'model', 'varchar', true,'{/literal}{sugar_translate label='LBL_MODEL' module='Vehicle' for_js=true}{literal}' );
 addToValidate('EditView', 'color', 'varchar', false,'{/literal}{sugar_translate label='LBL_COLOR' module='Vehicle' for_js=true}{literal}' );
+addToValidate('EditView', 'engine_number', 'varchar', false,'{/literal}{sugar_translate label='LBL_ENGINE_NUMBER' module='Vehicle' for_js=true}{literal}' );
 addToValidate('EditView', 'date_modified_date', 'date', false,'Date Modified' );
 addToValidateBinaryDependency('EditView', 'assigned_user_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='Vehicle' for_js=true}{literal}: {/literal}{sugar_translate label='LBL_ASSIGNED_TO' module='Vehicle' for_js=true}{literal}', 'assigned_user_id' );
 </script>{/literal}
