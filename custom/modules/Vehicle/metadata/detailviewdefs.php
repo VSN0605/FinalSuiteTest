@@ -20,6 +20,11 @@ array(
                 'label' => '10',
                 'field' => '30',
                 ),
+                2 =>
+                array(
+                'label' => '10',
+                'field' => '30',
+                ),
             ),
         ),
         'panels' => array(
@@ -39,6 +44,16 @@ array(
                         'comment' => 'Model name of the Vehicle',
                         'label' => 'LBL_MODEL',
                     ),
+                ),
+                1 => 
+                array(
+                    0 =>
+                    array(
+                        'name' => 'color',
+                        'comment' => 'Color of the Vehicle',
+                        'label' => 'LBL_COLOR',
+                    ),
+                    
                 ),
             ),
         ),

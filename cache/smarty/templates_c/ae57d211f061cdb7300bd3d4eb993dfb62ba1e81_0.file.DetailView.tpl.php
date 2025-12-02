@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-28 11:26:52
+/* Smarty version 4.5.5, created on 2025-12-02 06:07:34
   from 'C:\wamp64\www\crm_folder\suiteCRM_finalTest\cache\themes\SuiteP\modules\Vehicle\DetailView.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_692986fc479367_46880721',
+  'unifunc' => 'content_692e8226c6b5d5_50506566',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ae57d211f061cdb7300bd3d4eb993dfb62ba1e81' => 
     array (
       0 => 'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\cache\\themes\\SuiteP\\modules\\Vehicle\\DetailView.tpl',
-      1 => 1764329212,
+      1 => 1764655654,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_692986fc479367_46880721 (Smarty_Internal_Template $_smarty_tpl) {
+function content_692e8226c6b5d5_50506566 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.sugar_include.php','function'=>'smarty_function_sugar_include',),1=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.sugar_translate.php','function'=>'smarty_function_sugar_translate',),2=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\modifier.strip_semicolon.php','function'=>'smarty_modifier_strip_semicolon',),3=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.counter.php','function'=>'smarty_function_counter',),));
 ?>
 
@@ -229,6 +229,51 @@ $_smarty_tpl->_assignInScope('value', $_smarty_tpl->tpl_vars['fields']->value['m
 
 </div>
 
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-12 detail-view-row-item" data-field="color">
+
+
+<div class="col-xs-12 col-sm-2 label col-1-label">
+
+
+<?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "label", "label", null);
+echo smarty_function_sugar_translate(array('label'=>'LBL_COLOR','module'=>'Vehicle'),$_smarty_tpl);
+$_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);
+echo smarty_modifier_strip_semicolon($_smarty_tpl->tpl_vars['label']->value);?>
+:
+</div>
+
+
+<div class="col-xs-12 col-sm-10 detail-view-field inlineEdit" type="varchar" field="color" colspan='3'>
+
+<?php if (!$_smarty_tpl->tpl_vars['fields']->value['color']['hidden']) {
+echo smarty_function_counter(array('name'=>"panelFieldCount",'print'=>false),$_smarty_tpl);?>
+
+
+<?php if (strlen($_smarty_tpl->tpl_vars['fields']->value['color']['value']) <= 0) {
+$_smarty_tpl->_assignInScope('value', $_smarty_tpl->tpl_vars['fields']->value['color']['default_value']);
+} else {
+$_smarty_tpl->_assignInScope('value', $_smarty_tpl->tpl_vars['fields']->value['color']['value']);
+}?> 
+<span class="sugar_field" id="<?php echo $_smarty_tpl->tpl_vars['fields']->value['color']['name'];?>
+"><?php echo $_smarty_tpl->tpl_vars['fields']->value['color']['value'];?>
+</span>
+<?php }?>
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+</div>
+
 </div>
 <?php } else { ?>
 
@@ -336,6 +381,51 @@ $_smarty_tpl->_assignInScope('value', $_smarty_tpl->tpl_vars['fields']->value['m
 }?> 
 <span class="sugar_field" id="<?php echo $_smarty_tpl->tpl_vars['fields']->value['model']['name'];?>
 "><?php echo $_smarty_tpl->tpl_vars['fields']->value['model']['value'];?>
+</span>
+<?php }?>
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-12 detail-view-row-item" data-field="color">
+
+
+<div class="col-xs-12 col-sm-2 label col-1-label">
+
+
+<?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "label", "label", null);
+echo smarty_function_sugar_translate(array('label'=>'LBL_COLOR','module'=>'Vehicle'),$_smarty_tpl);
+$_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);
+echo smarty_modifier_strip_semicolon($_smarty_tpl->tpl_vars['label']->value);?>
+:
+</div>
+
+
+<div class="col-xs-12 col-sm-10 detail-view-field inlineEdit" type="varchar" field="color" colspan='3'>
+
+<?php if (!$_smarty_tpl->tpl_vars['fields']->value['color']['hidden']) {
+echo smarty_function_counter(array('name'=>"panelFieldCount",'print'=>false),$_smarty_tpl);?>
+
+
+<?php if (strlen($_smarty_tpl->tpl_vars['fields']->value['color']['value']) <= 0) {
+$_smarty_tpl->_assignInScope('value', $_smarty_tpl->tpl_vars['fields']->value['color']['default_value']);
+} else {
+$_smarty_tpl->_assignInScope('value', $_smarty_tpl->tpl_vars['fields']->value['color']['value']);
+}?> 
+<span class="sugar_field" id="<?php echo $_smarty_tpl->tpl_vars['fields']->value['color']['name'];?>
+"><?php echo $_smarty_tpl->tpl_vars['fields']->value['color']['value'];?>
 </span>
 <?php }?>
 

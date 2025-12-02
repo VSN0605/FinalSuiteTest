@@ -157,6 +157,45 @@
 
 </div>
 
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-12 detail-view-row-item" data-field="color">
+
+
+<div class="col-xs-12 col-sm-2 label col-1-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_COLOR' module='Vehicle'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-10 detail-view-field inlineEdit" type="varchar" field="color" colspan='3'>
+
+{if !$fields.color.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if strlen($fields.color.value) <= 0}
+{assign var="value" value=$fields.color.default_value }
+{else}
+{assign var="value" value=$fields.color.value }
+{/if} 
+<span class="sugar_field" id="{$fields.color.name}">{$fields.color.value}</span>
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+</div>
+
 </div>
 {else}
 
@@ -252,6 +291,45 @@
 {assign var="value" value=$fields.model.value }
 {/if} 
 <span class="sugar_field" id="{$fields.model.name}">{$fields.model.value}</span>
+{/if}
+
+<div class="inlineEditIcon col-xs-hidden">
+<span class="suitepicon suitepicon-action-edit"></span>
+</div>
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="row detail-view-row">
+
+
+
+<div class="col-xs-12 col-sm-12 detail-view-row-item" data-field="color">
+
+
+<div class="col-xs-12 col-sm-2 label col-1-label">
+
+
+{capture name="label" assign="label"}{sugar_translate label='LBL_COLOR' module='Vehicle'}{/capture}
+{$label|strip_semicolon}:
+</div>
+
+
+<div class="col-xs-12 col-sm-10 detail-view-field inlineEdit" type="varchar" field="color" colspan='3'>
+
+{if !$fields.color.hidden}
+{counter name="panelFieldCount" print=false}
+
+{if strlen($fields.color.value) <= 0}
+{assign var="value" value=$fields.color.default_value }
+{else}
+{assign var="value" value=$fields.color.value }
+{/if} 
+<span class="sugar_field" id="{$fields.color.name}">{$fields.color.value}</span>
 {/if}
 
 <div class="inlineEditIcon col-xs-hidden">

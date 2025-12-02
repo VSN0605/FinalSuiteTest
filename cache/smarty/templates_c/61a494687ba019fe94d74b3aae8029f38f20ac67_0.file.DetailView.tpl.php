@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-11-28 11:26:47
+/* Smarty version 4.5.5, created on 2025-12-02 06:07:31
   from 'C:\wamp64\www\crm_folder\suiteCRM_finalTest\themes\SuiteP\include\DetailView\DetailView.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_692986f72695c0_91252600',
+  'unifunc' => 'content_692e82238fb7d1_11868432',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:themes/SuiteP/include/DetailView/tab_panel_content.tpl' => 5,
   ),
 ),false)) {
-function content_692986f72695c0_91252600 (Smarty_Internal_Template $_smarty_tpl) {
+function content_692e82238fb7d1_11868432 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.sugar_include.php','function'=>'smarty_function_sugar_include',),1=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.counter.php','function'=>'smarty_function_counter',),));
 ?>
 {*

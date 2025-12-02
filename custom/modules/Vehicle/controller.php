@@ -10,10 +10,10 @@ class VehicleController extends SugarController
         
     }
 
-    public function action_vehicle()
-    {
-        $this->view = 'list';
-    }
+    // public function action_vehicle()
+    // {
+    //     $this->view = 'list';
+    // }
 
 }
 

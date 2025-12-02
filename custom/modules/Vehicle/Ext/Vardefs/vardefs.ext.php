@@ -2,8 +2,6 @@
  //WARNING: The contents of this file are auto-generated
 
 
-$dictionary['Vehicle']['custom_class'] = 'CustomVehicle';
-
 
 $dictionary['Vehicle'] = array(
     'table' => 'vehicle',

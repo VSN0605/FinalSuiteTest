@@ -4,7 +4,7 @@
 
     $module_menu[] = array(
         "index.php?module=Vehicle&action=EditView",
-        "LBL_CREATE_ACTION",
-        "Create", // Icon name/reference
-        "Vehicle",
+        // "LBL_CREATE_ACTION",
+        "Create Vehicle",
+        "Create Vehicle",
     );
