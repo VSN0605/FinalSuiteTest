@@ -1,5 +1,5 @@
 <?php
-// created: 2025-12-02 11:59:43
+// created: 2025-12-09 09:04:35
 $mod_strings = array (
   'LBL_NAME' => 'Vehicle Name',
   'LBL_MODEL' => 'Vehicle Model',
@@ -7,5 +7,6 @@ $mod_strings = array (
   'LBL_MODULE_NAME' => 'Vehicle',
   'LBL_VEHICLE_INFORMATION' => 'Vehicle Information',
   'LBL_MODULE_TITLE' => 'Vehicle Home',
+  'LBL_LIST_VEHICLE_DASHLET' => 'My Vehicle Dashlet Title',
   'LBL_ENGINE_NUMBER' => 'Engine Number',
 );

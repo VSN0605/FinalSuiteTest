@@ -6,4 +6,5 @@ $defaultDashlets =array (
   'MyOpportunitiesDashlet' => 'Opportunities',
   'MyAccountsDashlet' => 'Accounts',
   'MyLeadsDashlet' => 'Leads',
+  'MyVehicleDashlet' => 'Vehicle',
 );

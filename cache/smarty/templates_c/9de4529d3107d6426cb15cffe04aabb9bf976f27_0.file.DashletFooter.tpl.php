@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-12-02 11:59:53
+/* Smarty version 4.5.5, created on 2025-12-09 09:04:43
   from 'C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\Dashlets\DashletFooter.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_692ed4b9b245b0_16030238',
+  'unifunc' => 'content_6937e62b933a39_90486471',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,6 +20,6 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_692ed4b9b245b0_16030238 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6937e62b933a39_90486471 (Smarty_Internal_Template $_smarty_tpl) {
 ?></div><div class="mr"></div></div><div class="ft"><div class="bl"></div><div class="ft-center"></div><div class="br"></div></div><?php }
 }

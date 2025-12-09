@@ -9,4 +9,5 @@ $mod_strings = array(
     // 'LBL_CREATE_ACTION' => 'Create Vehicle',
     'LBL_MODULE_TITLE' => 'Vehicle Home',
     // 'LBL_BASE_IMPL_OVERRIDE' => 'My Custom Text',
+    'LBL_LIST_VEHICLE_DASHLET' => 'My Vehicle Dashlet Title',
 );

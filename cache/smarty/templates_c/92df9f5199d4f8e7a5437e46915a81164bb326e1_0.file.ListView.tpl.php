@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-12-02 11:59:54
+/* Smarty version 4.5.5, created on 2025-12-09 09:04:46
   from 'C:\wamp64\www\crm_folder\suiteCRM_finalTest\include\SugarFields\Fields\Phone\ListView.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_692ed4ba20a129_21142996',
+  'unifunc' => 'content_6937e62ef2ed69_12063432',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '92df9f5199d4f8e7a5437e46915a81164bb326e1' => 
     array (
       0 => 'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\SugarFields\\Fields\\Phone\\ListView.tpl',
-      1 => 1763526429,
+      1 => 1763526428,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_692ed4ba20a129_21142996 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6937e62ef2ed69_12063432 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.sugar_fetch.php','function'=>'smarty_function_sugar_fetch',),1=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.sugar_phone.php','function'=>'smarty_function_sugar_phone',),));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, 'getPhone', 'phone', null);
 echo smarty_function_sugar_fetch(array('object'=>$_smarty_tpl->tpl_vars['parentFieldArray']->value,'key'=>$_smarty_tpl->tpl_vars['col']->value),$_smarty_tpl);

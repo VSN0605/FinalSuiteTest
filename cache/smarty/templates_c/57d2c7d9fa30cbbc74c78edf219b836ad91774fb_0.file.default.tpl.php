@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-12-02 11:59:31
+/* Smarty version 4.5.5, created on 2025-12-09 09:03:25
   from 'C:\wamp64\www\crm_folder\suiteCRM_finalTest\modules\Alerts\templates\default.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_692ed4a3edd8a7_04823382',
+  'unifunc' => 'content_6937e5dd473956_38526500',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '57d2c7d9fa30cbbc74c78edf219b836ad91774fb' => 
     array (
       0 => 'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\modules\\Alerts\\templates\\default.tpl',
-      1 => 1763526375,
+      1 => 1763526374,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_692ed4a3edd8a7_04823382 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6937e5dd473956_38526500 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\function.sugar_translate.php','function'=>'smarty_function_sugar_translate',),1=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\modifier.replace.php','function'=>'smarty_modifier_replace',),));
 echo $_smarty_tpl->tpl_vars['Flash']->value;?>
 

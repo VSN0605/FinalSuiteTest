@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.5, created on 2025-12-02 11:59:53
+/* Smarty version 4.5.5, created on 2025-12-09 09:04:43
   from 'C:\wamp64\www\crm_folder\suiteCRM_finalTest\themes\SuiteP\include\Dashlets\DashletHeader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_692ed4b97aa931_71907249',
+  'unifunc' => 'content_6937e62b49d503_61496511',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '040d5f38c8b7af56fc78dea3ce3c83f7b92aff65' => 
     array (
       0 => 'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\themes\\SuiteP\\include\\Dashlets\\DashletHeader.tpl',
-      1 => 1763526435,
+      1 => 1763526434,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_692ed4b97aa931_71907249 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6937e62b49d503_61496511 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\crm_folder\\suiteCRM_finalTest\\include\\Smarty\\plugins\\modifier.replace.php','function'=>'smarty_modifier_replace',),));
 ?>
 <div onmouseover="this.style.cursor = 'move';" id="dashlet_header_<?php echo $_smarty_tpl->tpl_vars['DASHLET_ID']->value;?>

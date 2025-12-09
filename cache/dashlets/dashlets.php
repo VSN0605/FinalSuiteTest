@@ -1,5 +1,5 @@
 <?php
-// created: 2025-12-02 11:59:50
+// created: 2025-12-09 09:04:42
 $dashletsFiles = array (
   'MyAccountsDashlet' => 
   array (
@@ -394,5 +394,12 @@ $dashletsFiles = array (
     'class' => 'ven1_VendorsDashlet',
     'meta' => 'modules/ven1_Vendors/Dashlets/ven1_VendorsDashlet/ven1_VendorsDashlet.meta.php',
     'module' => 'ven1_Vendors',
+  ),
+  'MyVehicleDashlet' => 
+  array (
+    'file' => 'custom/modules/Vehicle/Dashlets/MyVehicleDashlet/MyVehicleDashlet.php',
+    'class' => 'MyVehicleDashlet',
+    'meta' => 'custom/modules/Vehicle/Dashlets/MyVehicleDashlet/MyVehicleDashlet.meta.php',
+    'module' => 'Vehicle',
   ),
 );
